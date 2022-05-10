@@ -92,3 +92,12 @@ pour plus de performance on réduit le fichier pour aller plus vite au chargemen
 
 type de classement que l'on peut faire pour ses article dans le backoffice de Wordpress
 ex : classer par catégorie
+
+## Custom post Type
+
+Les Custom Post Types permettent de créer des types de contenu sur-mesure, associant ou non une taxonomie particulière, pour créer sa propre architecture.
+
+## Capability
+
+Capacités qui déterminent les droits auxquelles on a accès selon son rôle.
+
