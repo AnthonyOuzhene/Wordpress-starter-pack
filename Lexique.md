@@ -101,3 +101,7 @@ Les Custom Post Types permettent de créer des types de contenu sur-mesure, asso
 
 Capacités qui déterminent les droits auxquelles on a accès selon son rôle.
 
+## Query_vars
+
+Parametres d'url (avec $_GET)
+On récupère ensuite les quesry_vars avec la fonction `get_query_var()`
