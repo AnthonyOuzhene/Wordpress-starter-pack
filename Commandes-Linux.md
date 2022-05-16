@@ -29,7 +29,7 @@ sudo chown -R student:www-data wp-content/uploads
 ```
 
 ```sh
-#Commande pour généer automatiquement un post type grâce à WP-CLI
+#Commande pour générer automatiquement un post type grâce à WP-CLI
 # https://developer.wordpress.org/cli/commands/scaffold/post-type/
 # ex : wp scaffold post-type projectPostType --plugin=oprofile
 wp scaffold post-type `nom du post type` --plugin=`nom du point d'entrée du plugin`

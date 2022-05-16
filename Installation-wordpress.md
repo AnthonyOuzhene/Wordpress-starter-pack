@@ -101,6 +101,12 @@ define('SECURE_AUTH_SALT', 'bo{e tT+S6}np_r;sb`s2>c4+FT*,ktp2+,=R@,sTk@$;(to4|Am
 define('LOGGED_IN_SALT',   '_V_Bt`$r)P3s6f#r&C<:7X>D-NQ-F^+;ZzYe+@BBe:ow|LZF`=S&{2a?ny8Q(t[4');
 define('NONCE_SALT',       '<vUZ*)Hwb}>tx=9HTd~^ $R?:|t5{C >)+lewcJA;F|-WUKer+ vE-e5%mN/&WPc');
 ```
+3. Bonne pratique de changer le préfixe avec nom du projet
+```sh
+# ex :
+$table_prefix = 'ocooking_';
+```
+
 
 - Créer un fichier wp-config-sample à la racine
 

@@ -1,5 +1,16 @@
 # Plugins
 
+## Pack de langue Fr
+
+```sh
+# pour installer la langue fr
+wp language core install fr_FR
+# /!\ ATTENTION : commande ci-dessous dépréciée
+wp language core activate fr_FR
+# utiliser plutot celle-ci :
+wp site switch-language instead
+```
+
 ## Query monitor
 
 Barre d'outils en mode dev pour Wordpress (sensiblement pareil que `Profiler` pour Symfony)
