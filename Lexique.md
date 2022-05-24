@@ -105,3 +105,44 @@ Capacités qui déterminent les droits auxquelles on a accès selon son rôle.
 
 Parametres d'url (avec $_GET)
 On récupère ensuite les quesry_vars avec la fonction `get_query_var()`
+
+# Vue.js
+
+## Interpolation
+
+Grâce à la syntaxe `{{ }}`, qui fonctionne comme un short echo tag de PHP, on peut faire un liaison entre une variable JS et une zone de texte en html.
+On peut y mettre du JavaScript 
+Le HTML peut aussi est être interprété suelement avec utklisation d'une directive
+
+## Directive
+
+Attribut HTML propre à Vue.js qui permet d'utiliser du HTML interprété.
+Notre variable contiendra en strin notre contenur
+```sh
+HTMLContent = "<strong>Bienvenue à vous</strong>"
+```
+
+```sh
+<div>
+v-html = `HTMLContent`
+</div>
+```
+
+## modifiers
+
+v-on::`nom-de-levenement`
+@`nom de l'evenement`
+
+
+## Props
+
+Passer des données depuis l'extérieur gràce à un array
+`props: ["today"]`
+
+Pour fournir de la données à un composant enfant qui accepter certaines props, on utilise `v-bind` pour lier des données.
+```sh
+`v-bind:today=`nom de variable`
+```
+
+Syntaxe alternantive de `v-bin:today` => `:today="currentDay"`
+

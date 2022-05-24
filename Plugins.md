@@ -51,6 +51,13 @@ wp plugin activate fakerpress
 4. On retire aussi "placehold.it" et "Lorem PIcsum" de "Meta Field Rules"
 5. Puis on clique sur "Generate" et on laisse mouliner
 
+## jwt-auth
+
+```sh
+composer require wpackagist-plugin/jwt-auth
+wp plugin activate jwt-auth
+```
+
 
 # Création d'un plugin
 
