@@ -33,3 +33,12 @@ Permet d'intéragir avec url courante avec le composant
 #Installation du composant
 npm install vue-router@4
 ```
+
+## Vuex
+
+Vuex est un modèle de gestion d'état + une bibliothèque pour les applications Vue.js. Il sert de magasin centralisé pour tous les composants d'une application, avec des règles garantissant que l'état ne peut être muté que de manière prévisible.
+Pour 2 composants Vue qui partagent la meme donnée => on utilise vuex
+
+```sh
+npm install vuex@next --save
+```

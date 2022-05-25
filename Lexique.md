@@ -77,7 +77,7 @@ C'est l'équivalent d'une fonction custom en php qu'on appelle dans un autre fic
 ```
 
 ```sh
-# On fait un inclue dans notre sccs de notre choix
+# On fait un include dans notre sccs de notre choix
       @include medium {
         width: 50%;
       }
@@ -104,7 +104,7 @@ Capacités qui déterminent les droits auxquelles on a accès selon son rôle.
 ## Query_vars
 
 Parametres d'url (avec $_GET)
-On récupère ensuite les quesry_vars avec la fonction `get_query_var()`
+On récupère ensuite les query_vars avec la fonction `get_query_var()`
 
 # Vue.js
 
