@@ -98,3 +98,7 @@ Pour pouvoir utiliser un composant externe dans la liste, il faut importer le fi
 ```sh
 import `NomduComposant` from './components/`NomduComposant.vue`';
 ```
+
+## Single File Component (SFC)
+
+Philosophie de Vue.sj => Un fichier dans lequel on déclare à la fois le template, le script, et parfois le style d'un composant donné

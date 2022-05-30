@@ -15,7 +15,7 @@ Comprend du JS, du CSS & sass
 
 ## Parcel
 
-parletjs.org => Bundler
+parletjs.org => Assets Bundler
 Logiciel ou Code écrit est comme une dépendance
 
 ```sh
@@ -117,7 +117,7 @@ Le HTML peut aussi est être interprété suelement avec utklisation d'une direc
 ## Directive
 
 Attribut HTML propre à Vue.js qui permet d'utiliser du HTML interprété.
-Notre variable contiendra en strin notre contenur
+Notre variable contiendra en string notre contenu
 ```sh
 HTMLContent = "<strong>Bienvenue à vous</strong>"
 ```
